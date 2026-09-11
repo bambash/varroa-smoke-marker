@@ -1,0 +1,6 @@
+apiVersion: varroa.dev/v1
+kind: Pipeline
+template: go-service
+templateVersion: "2.1"
+values:
+  greeting: "hi from the marker smoke"
